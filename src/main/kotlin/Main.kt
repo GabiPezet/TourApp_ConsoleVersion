@@ -156,7 +156,6 @@ private fun seeSelectedDestination(currentPackage: TourPackage?) {
                                "*** DESCRIPTION: ${currentPackage.destination.description} \n" +
                                "*** PICTURES: ${currentPackage.destination.pictures}")
         showMessage("***********************************************************")
-
     } else {
         showMessage(" *** Error, empty shopping cart, first select a package with option 2 ***\n")
     }
@@ -175,9 +174,6 @@ private fun selectTouristPackage(): TourPackage {
                 showMessage("STARS: ${selectedPackage.stars}")
                 showMessage("PRICE: ${selectedPackage.price}")
                 showMessage("LOGO: ${selectedPackage.logo}")
-
-
-
     return selectedPackage
 }
 
